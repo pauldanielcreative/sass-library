@@ -1,0 +1,41 @@
+// Colors
+$primary: #023eff !default;
+$secondary: #ff0000 !default;
+$bg-dark: #111521 !default;
+$bg-black: #090909 !default;
+
+// color palette
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "bg-dark": $bg-dark,
+  "bg-black": $bg-black,
+  "blue": blue,
+  "red": red,
+  "yellow": yellow,
+  "green": green,
+  "orange": orange,
+  "purple": purple,
+  "gray": gray,
+  "black": black,
+);
+
+// Spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// Borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+$round-border-radius: 50%;
+
+// Box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// Font sizes
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-md: $base-font-size * 1.25;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
